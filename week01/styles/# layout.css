@@ -42,7 +42,7 @@ nav a {
 
 main {
     grid-area: main;
-    background: #333333;
+    background: lightgray;
     padding: 20px;
 }
 
