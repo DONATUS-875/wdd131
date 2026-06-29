@@ -1,4 +1,7 @@
 /*Reset*/
+body {
+    background: yellow;
+}
 * {
     margin: 0;
     padding: 0;
@@ -34,6 +37,9 @@ nav ul {
     list-style: none;
 }
 
+nav li {
+    padding: 15px 0;
+}
 nav a {
     color: white;
     text-decoration: none;
