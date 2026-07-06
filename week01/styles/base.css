@@ -1,13 +1,13 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lora:wght@400;600&display=swap');
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Roboto, sans-serif;
     line-height: 1.6;
     background-color: #fdfdfd;
     color: #333;
@@ -16,8 +16,13 @@ body {
 header {
      background-color: #000080;
     color: white;
-    padding: 1rem;
     text-align: center;
+    padding: 1rem;
+}
+
+#course-title {
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 header h2 {
@@ -58,21 +63,13 @@ main {
     padding: 20px 0;
 }
 
-.about, .resources {
-    flex: 1 1 45%;
-    background: #fafafa;
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
  .resources {
     border: 1px solid #999;
     border-radius: 10px;
     padding: 20px;
 }
 
-.resources h2 {
+.card h2 {
     background: #000080;
     color: white;
     text-align: center;
@@ -81,7 +78,7 @@ main {
     border-radius: 10px 10px 0 0;
 }
 
-.resources img:first-of-type {
+.card img:first-of-type {
     float: right;
     margin: 0 0 15px 15px;
 }
@@ -123,8 +120,17 @@ footer {
     margin-top: 2rem;
 }
 
-.card h2 {
-    color: #006699 !important;
+#currentYear {
     font-weight: bold;
-    margin-bottom: 0.5rem;
 }
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+#course-title {
+    font-size: 1.5rem;
+}
+    

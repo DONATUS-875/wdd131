@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,15 +7,21 @@
     <title>WDD 131 - Dynamic Web Fundamentals - Ahule Tertindi Donatus</title>
     <meta name="description" content="WDD 131 - Dynamic Web Fundamentals. Ahule Tertindi Donatus">
     <meta name="author" content="Ahule Tertindi Donatus">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" 
+    href="stylesheet">
     <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
     <header>
         <h2>
-            WDD 131: <span>Dynamic Web Fundamentals</span>
+            <span id="course-title">
+                WDD 131: Dynamic Web Fundamentals
+            </span>
         </h2>
-    </header>
-    <nav>
+        <nav>
         <a href="https://www.linkedin.com/" target="_blank">
             LinkedIn
         </a>
@@ -28,10 +35,12 @@
             Final Project
         </a>
     </nav>
-    <h1>Ahule Tertindi Donatus</h1>
+    </header>
     <main>
+        <h1>Ahule Tertindi Donatus</h1>
+        
         <div class="cards">
-            <section class="resources">
+            <section class="card">
             <h2>About Me</h2>
             <img src="images/profile.jpg" alt="Profile image of Ahule Tertindi Donatus">
             <p>
@@ -54,7 +63,7 @@
                 of Guinea south.
             </p>
         </section>
-        <section class="resources">
+        <section class="card">
             <h2>Web Dev Resources</h2>
             <ul>
                 <li>
@@ -87,9 +96,10 @@
         </div>
     </main>
     <footer>
-        <p> &copy; 2026 🌸 Ahule Tertindi Donatus 🌸 | Nigeria</p>
+        <p> &copy; <span id="currentYear"></span> 🌸 Ahule Tertindi Donatus 🌸 | Nigeria</p>
         <p id="lastModified"></p>
     </footer>
-    <script src="scripts/getdates.js"></script>
 </body>
 </html>
+
+
