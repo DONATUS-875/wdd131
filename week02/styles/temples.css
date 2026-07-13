@@ -70,11 +70,11 @@ figure {
 }
 
 figure img {
-    width: 100%;
+    width: 220px;
     height: 150px;
     object-fit: cover;
     display: block;
-    border-radius: 3px;
+    margin: 0 auto;
 }
 
 figcaption {
