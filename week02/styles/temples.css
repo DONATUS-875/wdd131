@@ -45,7 +45,7 @@ nav a:hover {
 main {
     max-width: 850px;
     margin: 0 auto;
-    padding: 2rem 1rem;
+    padding: 1rem;
 }
 
 main h2 {
@@ -56,7 +56,9 @@ main h2 {
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: .5rem;
+    column-gap: .8rem;
+    row-gap: .5rem;
+    justify-items: center;
 }
 
 figure {
@@ -80,7 +82,7 @@ figure img {
 figcaption {
     text-align: center;
     color: #4b0f6b;
-    padding-top: .5rem;
+    margin-top: .25rem;
     font-weight: bold;
 }
 
