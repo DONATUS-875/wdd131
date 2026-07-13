@@ -55,7 +55,7 @@ main h2 {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 220px);
     column-gap: .8rem;
     row-gap: .5rem;
     justify-items: center;
