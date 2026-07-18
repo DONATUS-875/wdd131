@@ -22,7 +22,7 @@
         width: 320px;
         background: rgba(255, 255, 255, 0.90);
         border-radius: 8px;
-        box-shadow: 0 6px 18px rgba(0,0,0.25);
+        box-shadow: 0 6px 18px rgba(0,0,0,.25);
         padding: 1.5rem;
         text-align: left;
     }
@@ -50,7 +50,7 @@
         font-size: 1.5rem;
     }
 
-    .waether-icon {
+    .weather-icon {
         display: none;
     }
 
