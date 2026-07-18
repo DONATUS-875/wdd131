@@ -1,0 +1,64 @@
+@media screen and (min-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+        padding: .3rem;
+    }
+
+    main {
+        position: relative;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+        display: block;
+        
+    }
+
+    .card {
+        position: absolute;
+        width: 320px;
+        background: rgba(255, 255, 255, 0.90);
+        border-radius: 8px;
+        box-shadow: 0 6px 18px rgba(0,0,0.25);
+        padding: 1.5rem;
+        text-align: left;
+    }
+
+    .data {
+        top: 2rem;
+        left: 2rem;
+    }
+
+    .weather {
+        right: 2rem;
+        bottom: 2rem;
+    }
+
+    .card h2 {
+        background: #006b3f;
+        color: #fff;
+        margin: -1.5rem -1.5rem 1rem;
+        padding: .75rem;
+        text-align: center;
+    }
+
+    .weather h2::after {
+        content: "⛅";
+        font-size: 1.5rem;
+    }
+
+    .waether-icon {
+        display: none;
+    }
+
+    .card p {
+        margin: .6rem 0;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+}
