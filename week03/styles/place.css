@@ -1,8 +1,8 @@
 :root {
     --primary-color: #006b3f;
     --secondary-color: #008751;
-    --accent-color: #fff;
-    --text-color: #222;
+    --accent-color: #ffffff;
+    --text-color: #222222;
     --background-color: #f4f4f4;
     --card-shadow: 0 2px 10px rgba(0,0,0.15);
 }
@@ -22,7 +22,7 @@ body {
 
 header {
     background: var(--primary-color);
-    color: white;
+    color: var(--accent-color);
     text-align: center;
     padding: 1.2rem;
 }
@@ -92,7 +92,7 @@ main {
 footer {
     margin-top: 2rem;
     background: var(--primary-color);
-    color: white;
+    color: var(--accent-color);
     text-align: center;
     padding: 1.5rem;
 }
