@@ -78,6 +78,22 @@ const temples = [
     area: 35546,
     imageUrl:
     "https://churchofjesuschristtemples.org/assets/img/temples/bern-switzerland-temple/bern-switzerland-temple-54641-main.jpg"
+  },
+  {
+    templeName: "Bountiful Utah",
+    location: "Bountiful Utah United States",
+    dedicated: "1995, January, 8",
+    area: 104000,
+    imageUrl:
+    "https://churchofjesuschristtemples.org/assets/img/temples/bountiful-utah-temple/bountiful-utah-temple-40955-main.jpg"
+  },
+  {
+    templeName: "Brigham City Utah",
+    location: "Brigham City Utah United States",
+    dedicated: "2012 September 23",
+    area: 36000,
+    imageUrl:
+    "https://churchofjesuschristtemples.org/assets/img/temples/brigham-city-utah-temple/brigham-city-utah-temple-39612-main.jpg"
   }
 ];
 
