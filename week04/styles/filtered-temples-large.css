@@ -20,7 +20,7 @@
     }
 
     main {
-        max-width: 1000px;
+        max-width: 1200px;
         margin: 0 auto;
     }
 
@@ -29,13 +29,13 @@
         gap: 2rem;
     }
 
-    temples section {
+    .temples section {
         padding: 1.5rem;
     }
 
-    temples img {
+    .temples img {
         width: 100%;
-        max-width: 400;
+        max-width: 400px;
         margin: 1rem auto 0;
     }
 
