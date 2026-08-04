@@ -10,10 +10,20 @@ if (lastModified) {
     lastModified.textContent = document.lastModified;
 }
 
-if (reviewCount && window.location.search) {
-    let count = Number(localStorage.getItem("reviewCount")) || 0;
-    count += 1;
-    localStorage.setItem("reviewCount", count);
-    reviewCount.textContent = count;
-    window.history.replaceState({}, document.title, "review.html");
+    // Initialize review count display
+if (reviewCount) {
+    if (!localStorage.getItem("reviewCount")) {
+        localStorage.setItem("reviewCount", 0);
+    }
+    // Always show the current count
+    reviewCount.textContent = localStorage.getItem("reviewCount");
+    
+    // If this page was reached via form submission, increment
+    if (window.location.search) {
+        let count = Number(localStorage.getItem("reviewCount"));
+        count += 1;
+        localStorage.setItem("reviewCount", count);
+        reviewCount.textContent = count;
+        window.history.replaceState({}, document.title, "review.html");
+    }
 }
