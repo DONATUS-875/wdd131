@@ -15,4 +15,5 @@ if (reviewCount && window.location.search) {
     count += 1;
     localStorage.setItem("reviewCount", count);
     reviewCount.textContent = count;
+    window.history.replaceState({}, document.title, "review.html");
 }
